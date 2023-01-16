@@ -1,0 +1,5 @@
+# Copyright (c) 2020 Nicole Aptekar
+# SPDX-License-Identifier: MIT
+
+config SHIELD_PIXI
+    def_bool $(shields_list_contains,pixi)
